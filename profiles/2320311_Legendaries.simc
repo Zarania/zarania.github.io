@@ -1,5 +1,5 @@
 Demon_Hunter_Havoc_T19M_NH.simc
-$(Talents)=2310311
+$(Talents)=2320311
 html="zarania/$(Talents)_Legendaries.html"
 talents=$(Talents)
 name="$(Talents)_Baseline"

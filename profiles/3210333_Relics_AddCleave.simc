@@ -1,8 +1,8 @@
 Demon_Hunter_Havoc_T19M_NH.simc
-$(Talents)=3310333
-html="zarania/$(Talents)_Relics.html"
+$(Talents)=3210333
+html="zarania/$(Talents)_Relics_AddCleave.html"
 talents=$(Talents)
 name="$(Talents)_Baseline"
 talent_override=demonic
 
-Personal_Relics.simc
+Personal_Relics_AddCleave.simc
