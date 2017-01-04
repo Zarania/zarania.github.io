@@ -1,0 +1,12 @@
+Demon_Hunter_Havoc_T19M_NH.simc
+html="zarania/2210311_M_Set_Ring.html"
+talents=2210311
+name="Havoc_2210311_Baseline"
+set_bonus=tier19_2pc=0
+set_bonus=tier19_4pc=0
+finger1=anger_of_the_halfgiants,id=137038,enchant=binding_of_mastery,gems=150mastery
+
+copy="2_Piece"
+set_bonus=tier19_2pc=1
+copy="4_Piece"
+set_bonus=tier19_4pc=1
