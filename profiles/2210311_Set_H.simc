@@ -1,0 +1,11 @@
+Demon_Hunter_Havoc_T19H_NH.simc
+html="zarania/2210311_H_Set.html"
+talents=2210311
+name="Havoc_2210311_Baseline"
+set_bonus=tier19_2pc=0
+set_bonus=tier19_4pc=0
+
+copy="2_Piece"
+set_bonus=tier19_2pc=1
+copy="4_Piece"
+set_bonus=tier19_4pc=1
