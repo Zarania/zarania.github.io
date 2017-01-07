@@ -18,6 +18,14 @@ neck=prydaz_xavarics_magnum_opus,id=132444,gems=150mastery,enchant=mark_of_the_c
 copy=Havoc_$(Talents)_Kiljaedens,Havoc_$(Talents)_Baseline
 trinket2=kiljaedens_burning_wish,id=144259
 
+actions.cooldown=use_item,slot=trinket2
+actions.cooldown+=/nemesis,target_if=min:target.time_to_die,if=raid_event.adds.exists&debuff.nemesis.down&((active_enemies>desired_targets&active_enemies>1)|raid_event.adds.in>60)
+actions.cooldown+=/nemesis,if=!raid_event.adds.exists&(cooldown.metamorphosis.remains>100|target.time_to_die<70)
+actions.cooldown+=/nemesis,sync=metamorphosis,if=!raid_event.adds.exists
+actions.cooldown+=/chaos_blades,if=buff.metamorphosis.up|cooldown.metamorphosis.remains>100|target.time_to_die<20
+actions.cooldown+=/metamorphosis,if=variable.pooling_for_meta&fury.deficit<30
+actions.cooldown+=/potion,name=old_war,if=buff.metamorphosis.remains>25|target.time_to_die<30
+
 copy=Havoc_$(Talents)_Moarg,Havoc_$(Talents)_Baseline
 wrists=moarg_bionic_stabilizers,id=137090
 
