@@ -12,15 +12,6 @@ main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/136719
 copy="Havoc_$(Talents)_3_ilvl"
 main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/136719/136721,ilevel=936
 
-copy="Havoc_$(Talents)_4_ilvl"
-main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/136719/136721,ilevel=937
-
-copy="Havoc_$(Talents)_5_ilvl"
-main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/136719/136721,ilevel=938
-
-copy="Havoc_$(Talents)_6_ilvl"
-main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/136719/136721,ilevel=939
-
 copy="Havoc_$(Talents)_Demons_Bite"
 main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/137399/136721,ilevel=933
 

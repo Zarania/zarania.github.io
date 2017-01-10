@@ -1,8 +1,0 @@
-Demon_Hunter_Havoc_T19M_NH.simc
-$(Talents)=1310311
-html="zarania/$(Talents)_Relics_AddCleave.html"
-talents=$(Talents)
-name="$(Talents)_Baseline"
-
-
-Personal_Relics_AddCleave.simc
