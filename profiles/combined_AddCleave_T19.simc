@@ -3,16 +3,25 @@ Demon_Hunter_Havoc_T19M.simc
 name="Talentless"
 talents=0000000
 
-copy="1310112"
-talents=1310112
-copy="3310112"
-talents=3310112
-copy="2210112"
-talents=2210112
-copy="2220112"
-talents=2220112
-copy="3330133"
-talents=3330133
+copy="2220311"
+talents=2220311
+copy="2230311"
+talents=2230311
+copy="3310311"
+talents=3310311
+copy="2210311"
+talents=2210311
+copy="3310333"
+talents=3310333
 talent_override=demonic
+copy="3320333"
+talents=3320333
+talent_override=demonic
+copy="1320311"
+talents=1320311
+copy="1310311"
+talents=1310311
+copy="1220311"
+talents=1220311
 
 Personal_Combined_AddCleave.simc

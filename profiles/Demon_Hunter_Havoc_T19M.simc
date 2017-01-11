@@ -3,7 +3,7 @@ level=110
 race=blood_elf
 role=attack
 position=back
-talents=2220311
+talents=2320311
 talent_override=fel_barrage,if=active_enemies>1|raid_event.adds.exists
 talent_override=fel_barrage,if=active_enemies>1|raid_event.adds.exists
 talent_override=momentum,if=active_enemies>1|raid_event.adds.exists

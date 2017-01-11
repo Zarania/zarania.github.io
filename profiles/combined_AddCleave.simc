@@ -7,15 +7,12 @@ copy="2220112"
 talents=2220112
 copy="2230112"
 talents=2230112
-copy="3310112"
-talents=3310112
-copy="2210112"
-talents=2210112
-copy="3310133"
-talents=3310133
-talent_override=demonic
+copy="2320112"
+talents=2320112
 copy="3320133"
 talents=3320133
 talent_override=demonic
+copy="3310112"
+talents=3310112
 
 Personal_Combined_AddCleave.simc
