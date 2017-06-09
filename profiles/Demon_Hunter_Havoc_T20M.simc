@@ -1,0 +1,47 @@
+demonhunter="Demon_Hunter_Havoc_T20M"
+spec=havoc
+level=110
+race=blood_elf
+role=attack
+position=back
+talents=2220311
+talent_override=fel_barrage,if=(active_enemies>1|raid_event.adds.exists)&!talent.demonic.enabled
+talent_override=momentum,if=active_enemies>1|raid_event.adds.exists
+artifact=3:0:0:0:0:1000:4:1001:4:1002:4:1003:4:1004:4:1005:4:1006:4:1007:4:1008:4:1010:1:1011:1:1012:1:1013:1:1014:1:1015:1:1016:1:1330:1:1362:1:1493:4:1494:1:1495:1:1496:1:1630:1
+
+# Default consumables
+potion=old_war
+flask=seventh_demon
+food=lavish_suramar_feast
+augmentation=defiled
+
+head=",id=147034,ilevel=940"
+neck=",id=147014,ilevel=935,enchant_id=5437"
+shoulder=",id=147132,ilevel=935"
+back=",id=147128,ilevel=935,enchant_id=5435"
+chest=",id=147027,ilevel=935"
+wrist=",id=147042,ilevel=935"
+hands=",id=147031,ilevel=935"
+waist=",id=147347,ilevel=940"
+legs=",id=147131,ilevel=935"
+feet=",id=147029,ilevel=930"
+finger1=",id=147021,ilevel=935,enchant_id=5427"
+finger2=",id=147195,ilevel=940,enchant_id=5427"
+trinket1=",id=141482,bonus_id=3573/1507/3337"
+trinket2=",id=140796,bonus_id=3518/1512/3336"
+main_hand=",id=127829,bonus_id=719,gem_id=147086/147108/147086/0,ilevel=953"
+off_hand=",id=127830,relic_id=0/0,gem_id=0/0/0/0"
+set_bonus="tier20_2pc=1"
+set_bonus="tier20_4pc=1"
+
+# Gear Summary
+# gear_ilvl=939.75
+# gear_agility=27702
+# gear_stamina=45356
+# gear_crit_rating=13881
+# gear_haste_rating=8355
+# gear_mastery_rating=5212
+# gear_versatility_rating=1773
+# gear_armor=2480
+# set_bonus=tier20_2pc=1
+# set_bonus=tier20_4pc=1

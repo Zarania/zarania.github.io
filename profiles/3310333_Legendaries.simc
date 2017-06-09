@@ -1,8 +1,0 @@
-Demon_Hunter_Havoc_T19M_NH.simc
-$(Talents)=3310333
-html="zarania/$(Talents)_Legendaries.html"
-talents=$(Talents)
-name="$(Talents)_Baseline"
-talent_override=demonic
-
-Personal_Legendaries.simc

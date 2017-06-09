@@ -1,18 +1,12 @@
+Personal_Options.simc
 html="zarania/combined_AddCleave.html"
-Demon_Hunter_Havoc_T19M_NH.simc
 name="Talentless"
 talents=0000000
 
 copy="2220112"
 talents=2220112
-copy="2230112"
-talents=2230112
-copy="2320112"
-talents=2320112
 copy="3320133"
 talents=3320133
 talent_override=demonic
-copy="3310112"
-talents=3310112
 
 Personal_Combined_AddCleave.simc

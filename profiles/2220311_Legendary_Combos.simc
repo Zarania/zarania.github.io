@@ -1,0 +1,8 @@
+Personal_Options.simc
+$(Talents)=2220311
+html="zarania/$(Talents)_Legendary_Combos.html"
+talents=$(Talents)
+name="$(Talents)_Baseline"
+
+
+Personal_Legendary_Combos.simc

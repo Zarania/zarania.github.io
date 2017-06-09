@@ -1,43 +1,47 @@
 name="Havoc_$(Talents)_Baseline"
+finger1=yathaes_thumb_ring,id=147021,ilevel=930,enchant=binding_of_critical_strike
+back=cape_of_mindless_fury,id=147193,ilevel=930,enchant=binding_of_agility
 
-copy=Havoc_$(Talents)_Anger,Havoc_$(Talents)_Baseline
-finger1=anger_of_the_halfgiants,id=137038,enchant=binding_of_mastery,gems=150mastery
+copy=Anger,Havoc_$(Talents)_Baseline
+finger1=anger_of_the_halfgiants,id=137038,enchant=binding_of_critical_strike,gems=150crit,ilevel=970
 
-copy=Havoc_$(Talents)_Cinidaria,Havoc_$(Talents)_Baseline
-waist=cinidaria_the_symbiote,id=133976
+copy=Cinidaria,Havoc_$(Talents)_Baseline
+waist=cinidaria_the_symbiote,id=133976,ilevel=970
 
-copy=Havoc_$(Talents)_Loramus,Havoc_$(Talents)_Baseline
-feet=loramus_thalipedes_sacrifice,id=137022
+copy=Loramus,Havoc_$(Talents)_Baseline
+feet=loramus_thalipedes_sacrifice,id=137022,ilevel=970
 
-copy=Havoc_$(Talents)_Sephuzs,Havoc_$(Talents)_Baseline
-finger2=sephuzs_secret,id=132452,enchant=binding_of_mastery,gems=150mastery
+copy=Sephuzs,Havoc_$(Talents)_Baseline
+finger1=sephuzs_secret,id=132452,enchant=binding_of_critical_strike,gems=150crit,ilevel=970
 
-copy=Havoc_$(Talents)_Prydaz,Havoc_$(Talents)_Baseline
-neck=prydaz_xavarics_magnum_opus,id=132444,gems=150mastery,enchant=mark_of_the_claw
+copy=Prydaz,Havoc_$(Talents)_Baseline
+neck=prydaz_xavarics_magnum_opus,id=132444,gems=150crit,enchant=mark_of_the_claw,ilevel=970
 
-copy=Havoc_$(Talents)_Kiljaedens,Havoc_$(Talents)_Baseline
-trinket2=kiljaedens_burning_wish,id=144259
+copy=Kiljaedens,Havoc_$(Talents)_Baseline
+trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
 
-actions.cooldown=use_item,slot=trinket2
-actions.cooldown+=/nemesis,target_if=min:target.time_to_die,if=raid_event.adds.exists&debuff.nemesis.down&((active_enemies>desired_targets&active_enemies>1)|raid_event.adds.in>60)
-actions.cooldown+=/nemesis,if=!raid_event.adds.exists&(cooldown.metamorphosis.remains>100|target.time_to_die<70)
-actions.cooldown+=/nemesis,sync=metamorphosis,if=!raid_event.adds.exists
-actions.cooldown+=/chaos_blades,if=buff.metamorphosis.up|cooldown.metamorphosis.remains>100|target.time_to_die<20
-actions.cooldown+=/metamorphosis,if=variable.pooling_for_meta&fury.deficit<30
-actions.cooldown+=/potion,name=old_war,if=buff.metamorphosis.remains>25|target.time_to_die<30
+copy=Moarg,Havoc_$(Talents)_Baseline
+wrists=moarg_bionic_stabilizers,id=137090,ilevel=970
 
-copy=Havoc_$(Talents)_Moarg,Havoc_$(Talents)_Baseline
-wrists=moarg_bionic_stabilizers,id=137090
+copy="SotS/CC,Havoc_$(Talents)_Baseline"
+talents="2211311"
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
 
-copy=Havoc_$(Talents)_Delusions,Havoc_$(Talents)_Baseline
-shoulders=delusions_of_grandeur,id=144279
+copy="SotS/Bloodlet,Havoc_$(Talents)_Baseline"
+talents="2231311"
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
 
+copy=Chaos_Theory,Havoc_$(Talents)_Baseline
+back=chaos_theory,id=151798,ilevel=970,enchant=binding_of_agility
 
-# also change pieces to preserve 4pc nighthold bonus (only usable with T19M_NH profile)
-copy=Havoc_$(Talents)_Achor,Havoc_$(Talents)_Baseline
-hands=gloves_of_second_sight,id=138377,bonus_id=3518
-chest=achor_the_eternal_hunger,id=137014
+copy=Raddons,Havoc_$(Talents)_Baseline
+head=raddons_cascading_eyes,id=137061,ilevel=970
 
-copy=Havoc_$(Talents)_Raddons,Havoc_$(Talents)_Baseline
-hands=gloves_of_second_sight,id=138377,bonus_id=3518
-head=raddons_cascading_eyes,id=137061
+# also change pieces to preserve 4pc
+copy=Achor,Havoc_$(Talents)_Baseline
+head=demonbane_faceguard,id=147130,ilevel=930
+chest=achor_the_eternal_hunger,id=137014,ilevel=970
+
+copy=Delusions,Havoc_$(Talents)_Baseline
+head=demonbane_faceguard,id=147130,ilevel=930
+shoulders=delusions_of_grandeur,id=144279,ilevel=970

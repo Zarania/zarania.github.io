@@ -1,110 +1,126 @@
-#actions.cooldown=use_item,slot=trinket1,if=buff.chaos_blades.up|!talent.chaos_blades.enabled
 trinket1=,
 trinket2=,
-name=$(Talents)_Baseline
+name=Baseline
 
-copy=$(Talents)_Chaos_Talisman
-trinket2=chaos_talisman,id=137459,ilevel=905
+copy=Chaos_Talisman
+trinket1=chaos_talisman,id=137459,ilevel=915
 
-copy=$(Talents)_Chrono_Shard
-trinket2=chrono_shard,id=137419,ilevel=905
+copy=Chrono_Shard
+trinket1=chrono_shard,id=137419,ilevel=915
 
-copy=$(Talents)_Darkmoon_Deck_Dominion
-trinket2=darkmoon_deck_dominion,id=128705,ilevel=865
+copy=Darkmoon_Deck_Dominion
+trinket1=darkmoon_deck_dominion,id=128705,ilevel=885
 
-copy=$(Talents)_Faulty_Countermeasure
-trinket2=faulty_countermeasure,id=137539,ilevel=905
+copy=Faulty_Countermeasure
+trinket1=faulty_countermeasure,id=137539,ilevel=915
 
-copy=$(Talents)_Giant_Ornamental_Pearl
-trinket2=giant_ornamental_pearl,id=137369,ilevel=905
+copy=Giant_Ornamental_Pearl
+trinket1=giant_ornamental_pearl,id=137369,ilevel=915
 
-copy=$(Talents)_Horn_of_Valor
-trinket2=horn_of_valor,id=133642,ilevel=905
+copy=Horn_of_Valor
+trinket1=horn_of_valor,id=133642,ilevel=915
 
-copy=$(Talents)_Infernal_Alchemist_Stone
-trinket2=infernal_alchemist_stone,id=127842,ilevel=905
+copy=Infernal_Alchemist_Stone
+trinket1=infernal_alchemist_stone,id=127842,ilevel=915
 
-copy=$(Talents)_Mark_of_Dargrul
-trinket2=mark_of_dargrul,id=137357,ilevel=905
+copy=Mark_of_Dargrul
+trinket1=mark_of_dargrul,id=137357,ilevel=915
 
-copy=$(Talents)_Memento_of_Angerboda
-trinket2=memento_of_angerboda,id=133644,ilevel=905
+copy=Memento_of_Angerboda
+trinket1=memento_of_angerboda,id=133644,ilevel=915
 
-copy=$(Talents)_Nightmare_Egg_Shell
-trinket2=nightmare_egg_shell,id=137312,ilevel=905
+copy=Nightmare_Egg_Shell
+trinket1=nightmare_egg_shell,id=137312,ilevel=915
 
-copy=$(Talents)_Sixfeather_Fan
-trinket2=sixfeather_fan,id=141585,ilevel=905
+copy=Sixfeather_Fan
+trinket1=sixfeather_fan,id=141585,ilevel=915
 
-copy=$(Talents)_Spiked_Counterweight
-trinket2=spiked_counterweight,id=136715,ilevel=905
+copy=Spiked_Counterweight
+trinket1=spiked_counterweight,id=136715,ilevel=915
 
-copy=$(Talents)_Terrorbound_Nexus
-trinket2=terrorbound_nexus,id=137406,ilevel=905
+copy=Terrorbound_Nexus
+trinket1=terrorbound_nexus,id=137406,ilevel=915
 
-copy=$(Talents)_Devilsaurs_Bite
-trinket2=the_devilsaurs_bite,id=140026,ilevel=905
+copy=Devilsaurs_Bite
+trinket1=the_devilsaurs_bite,id=140026,ilevel=915
 
-copy=$(Talents)_Tiny_Oozeling_in_a_Jar
-trinket2=tiny_oozeling_in_a_jar,id=137439,ilevel=905
+copy=Tiny_Oozeling_in_a_Jar
+trinket1=tiny_oozeling_in_a_jar,id=137439,ilevel=915
 
-copy=$(Talents)_Tirathons_Betrayal
-trinket2=tirathons_betrayal,id=137537,ilevel=905
+copy=Tirathons_Betrayal
+trinket1=tirathons_betrayal,id=137537,ilevel=915
 
-copy=$(Talents)_Windscar_Whetstone
-trinket2=windscar_whetstone,id=137486,ilevel=905
+copy=Windscar_Whetstone
+trinket1=windscar_whetstone,id=137486,ilevel=915
 
-copy=$(Talents)_World_Quest_Crit
-trinket2=threetoed_rabbit_foot,id=134203,bonus_id=603,ilevel=905
+copy=World_Quest_Crit
+trinket1=threetoed_rabbit_foot,id=134203,bonus_id=603,ilevel=915
 
-copy=$(Talents)_World_Quest_Haste
-trinket2=threetoed_rabbit_foot,id=134203,bonus_id=604,ilevel=905
+copy=World_Quest_Haste
+trinket1=threetoed_rabbit_foot,id=134203,bonus_id=604,ilevel=915
 
-copy=$(Talents)_World_Quest_Mastery
-trinket2=threetoed_rabbit_foot,id=134203,bonus_id=605,ilevel=905
+copy=World_Quest_Mastery
+trinket1=threetoed_rabbit_foot,id=134203,bonus_id=605,ilevel=915
 
-copy=$(Talents)_World_Quest_Vers
-trinket2=threetoed_rabbit_foot,id=134203,bonus_id=607,ilevel=905
+copy=World_Quest_Vers
+trinket1=threetoed_rabbit_foot,id=134203,bonus_id=607,ilevel=915
 
-copy=$(Talents)_Natures_Call
-trinket2=natures_call,id=139334,ilevel=905
+copy=Bloodthirsty_Instinct
+trinket1=bloodthirsty_instinct,id=139329,ilevel=915
 
-copy=$(Talents)_Spontaneous_Appendages
-trinket2=spontaneous_appendages,id=139325,ilevel=905
+copy=Natures_Call
+trinket1=natures_call,id=139334,ilevel=915
 
-copy=$(Talents)_Ravaged_Seed_Pod
-trinket2=ravaged_seed_pod,id=139320,ilevel=905
+copy=Ravaged_Seed_Pod_910
+trinket1=ravaged_seed_pod,id=139320,ilevel=915
 
-copy=$(Talents)_Bloodthirsty_Instinct
-trinket2=bloodthirsty_instinct,id=139329,ilevel=905
+copy=Spontaneous_Appendages_930
+trinket1=spontaneous_appendages,id=139325,ilevel=915
 
-copy=$(Talents)_Unstable_Arcanocrystal
-trinket2=unstable_arcanocrystal,id=141482,ilevel=905
+copy=Unstable_Arcanocrystal
+trinket1=unstable_arcanocrystal,id=141482,ilevel=915
 
+copy=Toe_Knees_Promise
+trinket1=toe_knees_promise,id=142164,ilevel=915
 
-copy=$(Talents)_Toe_Knees_Promise
-trinket2=toe_knees_promise,id=142164,ilevel=905
+copy=Bloodstained_Handkerchief
+trinket1=bloodstained_handkerchief,id=142159,ilevel=915
 
-copy=$(Talents)_Bloodstained_Handkerchief
-trinket2=bloodstained_handkerchief,id=142159,ilevel=905
+copy=Eye_of_Command
+trinket1=eye_of_command,id=142167,ilevel=915
 
-copy=$(Talents)_Eye_of_Command
-trinket2=eye_of_command,id=142167,ilevel=905
+copy=Mrrgrias_Favor
+trinket1=mrrgrias_favor,id=142160,ilevel=915
 
-copy=$(Talents)_Mrrgrias_Favor
-trinket2=mrrgrias_favor,id=142160,ilevel=905
+copy=Arcanogolem_Digit
+trinket1=arcanogolem_digit,id=140794,ilevel=915
 
-copy=$(Talents)_Arcanogolem_Digit
-trinket2=arcanogolem_digit,id=140794,ilevel=905
+copy=Convergence_of_Fates
+trinket1=convergence_of_fates,id=140806,ilevel=915
 
-copy=$(Talents)_Convergence_of_Fates
-trinket2=convergence_of_fates,id=140806,ilevel=905
+copy=draught_of_souls
+trinket1=draught_of_souls,id=140808,ilevel=915
 
-copy=$(Talents)_draught_of_souls
-trinket2=draught_of_souls,id=140808,ilevel=905
+copy=Entwined_Elemental_Foci
+trinket1=entwined_elemental_foci,id=140796,ilevel=915
 
-copy=$(Talents)_Entwined_Elemental_Foci
-trinket2=entwined_elemental_foci,id=140796,ilevel=905
+copy=Nightblooming_Frond
+trinket1=nightblooming_frond,id=140802,ilevel=915
 
-copy=$(Talents)_Nightblooming_Frond
-trinket2=nightblooming_frond,id=140802,ilevel=905
+copy=Cradle_of_Anguish
+trinket1=cradle_of_anguish,id=147010,bonus_id=3561
+
+copy=Engine_of_Eradication
+trinket1=engine_of_eradication,id=147015,bonus_id=3561
+
+copy=Infernal_Cinders
+trinket1=infernal_cinders,id=147009,bonus_id=3561
+
+copy=Umbral_Moonglaives
+trinket1=umbral_moonglaives,id=147012,bonus_id=3561
+
+copy=Vial_of_Ceaseless_Toxins
+trinket1=vial_of_ceaseless_toxins,id=147011,bonus_id=3561
+
+copy=Specter_of_Betrayal
+trinket1=specter_of_betrayal,id=151190,bonus_id=3561
