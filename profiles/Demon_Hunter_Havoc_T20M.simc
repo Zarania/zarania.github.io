@@ -1,3 +1,10 @@
+override.spell_data=effect.350250.base_value=-11
+override.spell_data=effect.300260.base_value=100
+override.spell_data=effect.300652.base_value=50
+override.spell_data=effect.300653.base_value=5
+override.spell_data=effect.300653.die_sides=7
+override.spell_data=spell.203555.proc_chance=100
+
 demonhunter="Demon_Hunter_Havoc_T20M"
 spec=havoc
 level=110

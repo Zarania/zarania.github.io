@@ -38,3 +38,5 @@ main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/137347
 
 copy="Eye_Beam"
 main_hand=twinblades_of_the_deceiver,id=127829,bonus_id=719,gem_id=136721/142191/136721,ilevel=953
+
+target_error=.05
