@@ -23,6 +23,10 @@ trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
 copy=Moarg,Havoc_$(Talents)_Baseline
 wrists=moarg_bionic_stabilizers,id=137090,ilevel=970
 
+copy=Moarg_Bloodlet,Havoc_$(Talents)_Baseline
+wrists=moarg_bionic_stabilizers,id=137090,ilevel=970
+talent_override=bloodlet
+
 copy="SotS/CC,Havoc_$(Talents)_Baseline"
 talents="2211311"
 finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970

@@ -1,0 +1,8 @@
+Personal_Options.simc
+$(Talents)=3320333
+html="zarania/$(Talents)_Stats.html"
+talents=$(Talents)
+name="$(Talents)_Baseline"
+
+
+Personal_Stats.simc
