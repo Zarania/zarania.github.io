@@ -50,7 +50,7 @@ shoulders=delusions_of_grandeur,id=144279,ilevel=970
 
 copy=Anger_Sephuz,Havoc_$(Talents)_Baseline
 finger1=anger_of_the_halfgiants,id=137038,enchant=binding_of_critical_strike,gems=150crit,ilevel=970
-finger1=sephuzs_secret,id=132452,enchant=binding_of_critical_strike,gems=150crit,ilevel=970
+finger2=sephuzs_secret,id=132452,enchant=binding_of_critical_strike,gems=150crit,ilevel=970
 
 copy=Sephuz_Chaos,Havoc_$(Talents)_Baseline
 back=chaos_theory,id=151798,ilevel=970,enchant=binding_of_agility
