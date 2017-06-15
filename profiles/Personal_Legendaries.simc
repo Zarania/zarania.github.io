@@ -28,11 +28,11 @@ wrists=moarg_bionic_stabilizers,id=137090,ilevel=970
 talent_override=bloodlet
 
 copy="SotS/CC,Havoc_$(Talents)_Baseline"
-talents="2211311"
+talent_override=chaos_cleave
 finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
 
 copy="SotS/Bloodlet,Havoc_$(Talents)_Baseline"
-talents="2231311"
+talent_override=bloodlet
 finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
 
 copy=Chaos_Theory,Havoc_$(Talents)_Baseline
