@@ -13,6 +13,11 @@ copy=Chaos_Raddons,Havoc_$(Talents)_Baseline
 back=chaos_theory,id=151798,ilevel=970,enchant=binding_of_agility
 head=raddons_cascading_eyes,id=137061,ilevel=970
 
+copy=Chaos_SotS/CC,Havoc_$(Talents)_Baseline
+back=chaos_theory,id=151798,ilevel=970,enchant=binding_of_agility
+talent_override=chaos_cleave
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
+
 copy=Chaos_Kiljaedens,Havoc_$(Talents)_Baseline
 back=chaos_theory,id=151798,ilevel=970,enchant=binding_of_agility
 trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
@@ -37,6 +42,11 @@ copy=Cinidaria_Raddons,Havoc_$(Talents)_Baseline
 waist=cinidaria_the_symbiote,id=133976,ilevel=970
 head=raddons_cascading_eyes,id=137061,ilevel=970
 
+copy=Cinidaria_SotS/CC,Havoc_$(Talents)_Baseline
+waist=cinidaria_the_symbiote,id=133976,ilevel=970
+talent_override=chaos_cleave
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
+
 copy=Kiljaedens_Loramus,Havoc_$(Talents)_Baseline
 feet=loramus_thalipedes_sacrifice,id=137022,ilevel=970
 trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
@@ -45,6 +55,21 @@ copy=Kiljaedens_Raddons,Havoc_$(Talents)_Baseline
 head=raddons_cascading_eyes,id=137061,ilevel=970
 trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
 
+copy=Kiljaedens_SotS/CC,Havoc_$(Talents)_Baseline
+talent_override=chaos_cleave
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
+trinket2=kiljaedens_burning_wish,id=144259,ilevel=970
+
 copy=Loramus_Raddons,Havoc_$(Talents)_Baseline
 head=raddons_cascading_eyes,id=137061,ilevel=970
 feet=loramus_thalipedes_sacrifice,id=137022,ilevel=970
+
+copy=Loramus_SotS/CC,Havoc_$(Talents)_Baseline
+talent_override=chaos_cleave
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
+feet=loramus_thalipedes_sacrifice,id=137022,ilevel=970
+
+copy=Raddons_SotS/CC,Havoc_$(Talents)_Baseline
+head=raddons_cascading_eyes,id=137061,ilevel=970
+talent_override=chaos_cleave
+finger2=soul_of_the_slayer,id=151639,enchant_id=5427,ilevel=970,gems=150crit,ilevel=970
