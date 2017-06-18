@@ -9,7 +9,7 @@ copy=Chrono_Shard
 trinket1=chrono_shard,id=137419,ilevel=915
 
 copy=Darkmoon_Deck_Dominion
-trinket1=darkmoon_deck_dominion,id=128705,ilevel=885
+trinket1=darkmoon_deck_dominion,id=128705,ilevel=900
 
 copy=Faulty_Countermeasure
 trinket1=faulty_countermeasure,id=137539,ilevel=915
@@ -108,19 +108,19 @@ copy=Nightblooming_Frond
 trinket1=nightblooming_frond,id=140802,ilevel=915
 
 copy=Cradle_of_Anguish
-trinket1=cradle_of_anguish,id=147010,bonus_id=3561
+trinket1=cradle_of_anguish,id=147010,ilevel=915
 
 copy=Engine_of_Eradication
-trinket1=engine_of_eradication,id=147015,bonus_id=3561
+trinket1=engine_of_eradication,id=147015,ilevel=915
 
 copy=Infernal_Cinders
-trinket1=infernal_cinders,id=147009,bonus_id=3561
+trinket1=infernal_cinders,id=147009,ilevel=915
 
 copy=Umbral_Moonglaives
-trinket1=umbral_moonglaives,id=147012,bonus_id=3561
+trinket1=umbral_moonglaives,id=147012,ilevel=915
 
 copy=Vial_of_Ceaseless_Toxins
-trinket1=vial_of_ceaseless_toxins,id=147011,bonus_id=3561
+trinket1=vial_of_ceaseless_toxins,id=147011,ilevel=915
 
 copy=Specter_of_Betrayal
-trinket1=specter_of_betrayal,id=151190,bonus_id=3561
+trinket1=specter_of_betrayal,id=151190,ilevel=915
