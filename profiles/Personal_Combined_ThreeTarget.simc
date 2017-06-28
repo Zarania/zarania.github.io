@@ -1,1 +1,2 @@
 desired_targets=3
+target_error=.05
