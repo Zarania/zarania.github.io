@@ -1,3 +1,0 @@
-name="Havoc_$(Talents)_Stats"
-calculate_scale_factors="1"
-scale_only="stamina,strength,intellect,agility,crit,mastery,vers,haste"

@@ -1,8 +1,0 @@
-Personal_Options.simc
-$(Talents)=2220311
-html="zarania/$(Talents)_Items_AddCleave.html"
-talents=$(Talents)
-name="$(Talents)_Baseline"
-
-
-Personal_Items_AddCleave.simc

@@ -1,8 +1,0 @@
-Personal_Options.simc
-$(Talents)=3320333
-html="zarania/$(Talents)_Items.html"
-talents=$(Talents)
-name="$(Talents)_Baseline"
-talent_override=demonic
-
-Personal_Items.simc

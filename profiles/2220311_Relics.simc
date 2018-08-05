@@ -1,8 +1,0 @@
-Personal_Options.simc
-$(Talents)=2220311
-html="zarania/$(Talents)_Relics.html"
-talents=$(Talents)
-name="$(Talents)_Baseline"
-
-
-Personal_Relics.simc
